@@ -1,10 +1,10 @@
 import { DOUGH_TYPES, SAUCE_TYPES, INGREDIENT_TYPES } from "@/common/constants";
 import sizeTypes from "@/common/enums/sizeTypes";
 
-export const normalizeDough = (douch) => {
+export const normalizeDough = (dough) => {
   return {
-    ...douch,
-    type: DOUGH_TYPES.find(({ label }) => douch.name === label)?.value,
+    ...dough,
+    type: DOUGH_TYPES.find(({ label }) => dough.name === label)?.value,
   };
 };
 
