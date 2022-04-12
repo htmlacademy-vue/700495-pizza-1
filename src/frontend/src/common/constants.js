@@ -1,84 +1,84 @@
 export const DOUGH_TYPES = [
   {
-    label: "Тонкое",
     value: "light",
+    dough_id: 1,
   },
   {
-    label: "Толстое",
     value: "large",
+    dough_id: 2,
   },
 ];
 
 export const SAUCE_TYPES = [
   {
-    label: "Томатный",
     value: "tomato",
+    sauce_id: 1,
   },
   {
-    label: "Сливочный",
     value: "creamy",
+    sauce_id: 2,
   },
 ];
 
 export const INGREDIENT_TYPES = [
   {
-    label: "Грибы",
     value: "mushrooms",
+    ingredient_id: 1,
   },
   {
-    label: "Чеддер",
     value: "cheddar",
+    ingredient_id: 2,
   },
   {
-    label: "Салями",
     value: "salami",
+    ingredient_id: 3,
   },
   {
-    label: "Ветчина",
     value: "ham",
+    ingredient_id: 4,
   },
   {
-    label: "Ананас",
     value: "ananas",
+    ingredient_id: 5,
   },
   {
-    label: "Бекон",
     value: "bacon",
+    ingredient_id: 6,
   },
   {
-    label: "Лук",
     value: "onion",
+    ingredient_id: 7,
   },
   {
-    label: "Чили",
     value: "chile",
+    ingredient_id: 8,
   },
   {
-    label: "Халапеньо",
     value: "jalapeno",
+    ingredient_id: 9,
   },
   {
-    label: "Маслины",
     value: "olives",
+    ingredient_id: 10,
   },
   {
-    label: "Томаты",
     value: "tomatoes",
+    ingredient_id: 11,
   },
   {
-    label: "Лосось",
     value: "salmon",
+    ingredient_id: 12,
   },
   {
-    label: "Моцарелла",
     value: "mozzarella",
+    ingredient_id: 13,
   },
   {
-    label: "Пармезан",
     value: "parmesan",
+    ingredient_id: 14,
   },
   {
-    label: "Блю чиз",
     value: "blue_cheese",
+    ingredient_id: 15,
   },
 ];
