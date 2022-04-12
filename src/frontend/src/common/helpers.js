@@ -25,7 +25,8 @@ export const normalizeSize = (size) => {
 export const normalizeIngredient = (ingredient) => {
   return {
     ...ingredient,
-    type: INGREDIENT_TYPES.find(({ ingredient_id }) => ingredient.id === ingredient_id)
-      ?.value,
+    type: INGREDIENT_TYPES.find(
+      ({ ingredient_id }) => ingredient.id === ingredient_id
+    )?.value,
   };
 };
