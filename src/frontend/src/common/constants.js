@@ -1,84 +1,27 @@
-export const DOUGH_TYPES = [
-  {
-    value: "light",
-    dough_id: 1,
-  },
-  {
-    value: "large",
-    dough_id: 2,
-  },
-];
+export const doughTypes = {
+  1: "light",
+  2: "large",
+};
 
-export const SAUCE_TYPES = [
-  {
-    value: "tomato",
-    sauce_id: 1,
-  },
-  {
-    value: "creamy",
-    sauce_id: 2,
-  },
-];
+export const sauceTypes = {
+  1: "tomato",
+  2: "creamy",
+};
 
-export const INGREDIENT_TYPES = [
-  {
-    value: "mushrooms",
-    ingredient_id: 1,
-  },
-  {
-    value: "cheddar",
-    ingredient_id: 2,
-  },
-  {
-    value: "salami",
-    ingredient_id: 3,
-  },
-  {
-    value: "ham",
-    ingredient_id: 4,
-  },
-  {
-    value: "ananas",
-    ingredient_id: 5,
-  },
-  {
-    value: "bacon",
-    ingredient_id: 6,
-  },
-  {
-    value: "onion",
-    ingredient_id: 7,
-  },
-  {
-    value: "chile",
-    ingredient_id: 8,
-  },
-  {
-    value: "jalapeno",
-    ingredient_id: 9,
-  },
-  {
-    value: "olives",
-    ingredient_id: 10,
-  },
-  {
-    value: "tomatoes",
-    ingredient_id: 11,
-  },
-  {
-    value: "salmon",
-    ingredient_id: 12,
-  },
-  {
-    value: "mozzarella",
-    ingredient_id: 13,
-  },
-  {
-    value: "parmesan",
-    ingredient_id: 14,
-  },
-  {
-    value: "blue_cheese",
-    ingredient_id: 15,
-  },
-];
+export const ingredientTypes = {
+  1: "mushrooms",
+  2: "cheddar",
+  3: "salami",
+  4: "ham",
+  5: "ananas",
+  6: "bacon",
+  7: "onion",
+  8: "chile",
+  9: "jalapeno",
+  10: "olives",
+  11: "tomatoes",
+  12: "salmon",
+  13: "mozzarella",
+  14: "parmesan",
+  15: "blue_cheese",
+};
